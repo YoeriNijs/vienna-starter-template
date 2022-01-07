@@ -5,8 +5,8 @@ describe('HomeComponent', () => {
 
     beforeAll(() => {
         // We do not want to execute the real component timers. Since this helper method is global, it may leak to
-        // other tests as well. Therefore, this method is set in the Vienna framework. Furthermore,
-        // we have to clean it up eventually.
+        // other tests as well. Therefore, this method is not set in the Vienna framework and, thus,
+        // we have to clean it up ourselves.
         jest.useFakeTimers()
     });
 
