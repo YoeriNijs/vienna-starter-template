@@ -12,7 +12,6 @@
     "declaration": true
   },
   "exclude": [
-    "./**/__tests__",
-    "./server"
+    "./**/__tests__"
   ]
 }
