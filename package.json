@@ -13,7 +13,7 @@
     "dist/**/*"
   ],
   "dependencies": {
-    "vienna-ts": "^0.2.25"
+    "vienna-ts": "^0.2.63"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
